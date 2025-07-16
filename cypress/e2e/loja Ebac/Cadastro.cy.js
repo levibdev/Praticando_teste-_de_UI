@@ -3,7 +3,7 @@
 import { faker } from '@faker-js/faker';
 
 beforeEach(() => {
-    cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+    cy.visit('minha-conta/')
 });
 
 describe('Funcionalidade: Cadastro', () => {
